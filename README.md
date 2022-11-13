@@ -8,7 +8,7 @@ For more details, refer to the presentation [here](https://sciresm.github.io/33-
 
 Install via [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller).
 
-Launches "boot.firm" off of the SD card or CTRNAND.
+Launches "ntrboot.firm" off of the SD card or CTRNAND.
 
 ## LED Status Codes
 By holding `X + Start + Select` during boot, or if either FIRM file is corrupt, the notification LED will display the following:

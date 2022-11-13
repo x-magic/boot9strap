@@ -59,7 +59,7 @@ void chainloaderMain(const Firm *firm, bool isNand)
         },
     };
 
-    argv[0] = isNand ? "nand:/boot.firm" : "sdmc:/boot.firm";
+    argv[0] = isNand ? "nand:/ntrboot.firm" : "sdmc:/ntrboot.firm";
 
     if(firm->reserved2[0] & 1)
     {

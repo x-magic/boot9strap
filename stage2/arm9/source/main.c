@@ -35,7 +35,7 @@ static void invokeArm11Function(Arm11Operation op)
 
 static FirmLoadStatus loadFirm(Firm **outFirm)
 {
-    static const char *firmName = "boot.firm";
+    static const char *firmName = "ntroboot.firm";
     Firm *firmHeader = (Firm *)0x080A0000;
     u32 rd = fileRead(firmHeader, firmName, 0x200, 0);
     if (rd != 0x200)
